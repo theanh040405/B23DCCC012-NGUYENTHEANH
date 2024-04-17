@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+    <div class="calculator">
+        <div>
+            <input class="a" type="text" id="inputA" placeholder="Nhập số A">
+            <input class="a" type="text" id="inputB" placeholder="Nhập số B">
+        </div>
+        <div class="buton1">
+            <button class="buton" onclick="calculate('SUM')">SUM</button>
+            <button class="buton" onclick="calculate('SUBTRACT')">SUBTRACT</button>
+            <button class="buton" onclick="calculate('MULTIPLY')">MULTIPLY</button>
+            <button class="buton"  onclick="calculate('DIVIDE')">DIVIDE</button>
+            <button class="buton" onclick="resetInputs()">RESET</button>
+        </div>
+    </div>
+    <p class="result" id="result"></p>
+    <script src="bai1.js"></script>
+</body>
+</html>
